@@ -1,4 +1,4 @@
-[workspace]
+#[workspace]
 members = [
     "crates/*",
     "crates/test-assembly/crates/*",
@@ -10,7 +10,7 @@ resolver = "2"
 [workspace.package]
 authors = ["Mads Marquart <mads@marquart.dk>"]
 edition = "2021"
-rust-version = "1.71"
+# rust-version = "1.71"
 repository = "https://github.com/madsmtm/objc2"
 
 # Framework crate defaults
